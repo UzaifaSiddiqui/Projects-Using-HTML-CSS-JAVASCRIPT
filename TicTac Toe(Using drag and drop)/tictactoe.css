@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 330px;
+}
+.game{
+    height: 350px;
+    width: 345px;
+    border: 2px white solid;
+    display: flex;
+    flex-wrap:wrap;
+
+}
+.field{
+    color: aliceblue;
+    font-size: 135px;
+    height: 116px;
+    border: 2px white solid;
+    line-height: 80px;
+    text-align: center;
+    flex: 1 0 100px;
+}
+.cross{
+    border: 2px solid whitesmoke; 
+    margin-left: 5rem;
+/*     position: relative;
+    left: 100px; */
+}
+.cross img{
+    width: 80px;
+    height: 80px;
+
+}
+.zero{
+    border: 2px solid whitesmoke;
+    margin-right: 5rem;
+/*     position: relative;
+    right: 100px; */
+}
+.zero img{
+    width: 100px;
+    height: 80px;
+
+}
