@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(49, 35, 35);
+}
+.header{
+    background-color: #533549;
+    height: 10vh;
+    margin-bottom: 20px;
+}
+h2{
+    color: #F6B042;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 10px;
+}
+.task{
+    width: 80vw;
+    /* min-height: 20vh; */
+    margin: 0 auto;
+}
+.task .title{
+    color: #F6B042;
+    font-size: 25px;
+    padding: 2px 5px;
+    cursor: pointer;
+    height: 40px;
+    background-color: #533549;
+    border: 2px white solid;
+    line-height: 29px;
+
+}
+.container .task .window{
+    padding-top: 10px;
+    color: antiquewhite;
+    font-weight: bold;
+
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container .task.active .window{
+    min-height: 80vh;
+}
